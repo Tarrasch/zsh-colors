@@ -11,7 +11,7 @@ Imagine a shell where `red ERROR` just works
 
 (But of course outputted with the color specified)
 
-The colors are: *black red green yellow blue magenta cyan white*
+The colors are: *black blue cyan green magenta red white yellow*
 
 ## Install
 
