@@ -1,10 +1,10 @@
 local str;
-str="$fg[$0]"
+printf $fg[$0]
+
 if (( $# == 0 ))
 then
-  str+="$(cat /dev/stdin)"
+  cat /dev/stdin
 else
-  str+="$@"
+  printf "$@"
 fi
-str+='%f'
-print -P "\${(e)str}"
+printf $reset_color
