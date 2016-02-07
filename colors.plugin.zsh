@@ -6,3 +6,4 @@
 colors=( black red green yellow blue magenta cyan white )
 autoload -Uz $colors
 autoload -U colors && colors
+fpath+="`dirname $0`"
