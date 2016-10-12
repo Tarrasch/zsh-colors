@@ -1,4 +1,4 @@
-printf $fg[$0]
+printf %s "$fg[$0]"
 
 if (( $# == 0 ))
 then
@@ -7,4 +7,4 @@ else
   # printf doesn't print the trailing newline, but print does
   print "$@"
 fi
-printf $reset_color
+printf %s "$reset_color"
